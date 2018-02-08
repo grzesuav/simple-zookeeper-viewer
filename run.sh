@@ -1,5 +1,5 @@
 #!/bin/bash
-CLUSTER=$1
+CLUSTER=$CLUSTER
 : ${CLUSTER:=localhost}
 ZK_HOSTS="$CLUSTER:2181"
 python -mwebbrowser 'http://localhost:5000'
