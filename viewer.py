@@ -81,7 +81,7 @@ def parse_data(raw_data):
 
 if __name__ == '__main__':
     import sys
-    host = '127.0.0.1'
+    host = '0.0.0.0'
     port = 5000
     if len(sys.argv) > 1:
         host = sys.argv[1]
